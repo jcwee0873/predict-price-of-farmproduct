@@ -1,2 +1,12 @@
-# predict_farmproduct
-Predict agricultural product by Climate using ML/LSTM
+# 기후 데이터를 통한 농산물 가격 변동 예측
+기후 변동에 따른 채소(쌀, 마늘, 양파, 고추, 무, 시금치, 토마토, 상추, 배추, 양배추, 당근)의 가격 변동 예측  
+
+## 사용기술
+- Python
+- Pandas
+- scikit-learn
+- Keras LSTM  
+
+## 활용 데이터
+- 농산물 가격데이터 : aT센터 KAMIS API
+- 기후 데이터 : 기상청 가상자료포털(작물별 주 생산지의 농업기상정보, 2011-01-01 ~ 2021-10-15)  
